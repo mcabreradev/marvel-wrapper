@@ -16,10 +16,15 @@ const config = {
   }
 };
 
-class Api {
-  findAll = () => {
-    return axios.get(constants.api.host + "/characters", config);
-  };
+
+const get = (endpoint, params) => {
+  // add customn params if needed
+  config.params  = {...config.params, ...params}
+
+  return axios.get(constants.api.host + endpoint, config)
 }
 
-export default new Api();
+export const getAllCharacters = (params) => {
+
+  return get("/characters", params)
+}

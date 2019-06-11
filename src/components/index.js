@@ -1,9 +1,13 @@
 import Error from './Error';
 import Header from './Header';
-import Character from './Character'
+import Characters from './Characters';
+import Loading from './Loading';
+import Filters from './Filters';
 
 export {
     Error,
     Header,
-    Character
+    Characters,
+    Loading,
+    Filters
 };

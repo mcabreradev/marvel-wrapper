@@ -1,15 +1,15 @@
-import { APP } from "../actions/types";
+import { CHARACTERS } from "../actions/types";
 
 const initialState = {
-  isLoading: false
+  data: []
 };
 
 export default function(state = initialState, action) {
   switch (action.type) {
-    case APP.TOGGLE_LOADING:
+    case CHARACTERS.FETCH_CHARACTERS:
       return {
         ...state,
-        isLoading: action.payload
+        data: action.payload
       };
 
     default:
