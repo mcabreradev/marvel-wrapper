@@ -4,6 +4,7 @@ import { Characters } from '../../components';
 
 const mapStateToProps = state => ({
     isLoading: state.app.isLoading,
+    characters: state.characters.data,
 });
 
 const mapActionToProps = {

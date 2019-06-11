@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Loading = (props) =>  (
-    <div className={"pageloader has-background-grey-darker " + ( props.isActive ? 'is-active' : '')}>
-        <span className="title">{ props.text }</span>
-    </div>
+const Loading = ({text, isActive}) =>  (
+  <div className={"pageloader has-background-grey-darker " + ( isActive ? 'is-active' : '')}>
+    <span className="title">{ text }</span>
+  </div>
 );
 
 Loading.defaultProps = {
-    text: "Loading..",
-    isActive: false
+  text: "Loading..",
+  isActive: false
 };
 
 export default Loading;

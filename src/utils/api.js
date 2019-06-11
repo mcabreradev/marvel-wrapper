@@ -24,7 +24,12 @@ const get = (endpoint, params) => {
   return axios.get(constants.api.host + endpoint, config)
 }
 
-export const getAllCharacters = (params) => {
+export const getCharacters = (params) => {
 
   return get("/characters", params)
+}
+
+export const getCharacter = (id, params) => {
+
+  return get("/characters/" + id, params)
 }

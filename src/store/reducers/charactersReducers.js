@@ -1,7 +1,8 @@
 import { CHARACTERS } from "../actions/types";
 
 const initialState = {
-  data: []
+  data: [],
+  character: []
 };
 
 export default function(state = initialState, action) {
@@ -10,6 +11,12 @@ export default function(state = initialState, action) {
       return {
         ...state,
         data: action.payload
+      };
+
+    case CHARACTERS.FETCH_SINGLE_CHARACTER:
+      return {
+        ...state,
+        character: action.payload
       };
 
     default:
