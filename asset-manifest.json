@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/marvel-app/static/css/main.35d50831.chunk.css",
-    "main.js": "/marvel-app/static/js/main.7e81c549.chunk.js",
-    "main.js.map": "/marvel-app/static/js/main.7e81c549.chunk.js.map",
+    "main.js": "/marvel-app/static/js/main.6b9a8256.chunk.js",
+    "main.js.map": "/marvel-app/static/js/main.6b9a8256.chunk.js.map",
     "runtime~main.js": "/marvel-app/static/js/runtime~main.c5799f92.js",
     "runtime~main.js.map": "/marvel-app/static/js/runtime~main.c5799f92.js.map",
     "static/css/2.14d66c4a.chunk.css": "/marvel-app/static/css/2.14d66c4a.chunk.css",
-    "static/js/2.7e4e4994.chunk.js": "/marvel-app/static/js/2.7e4e4994.chunk.js",
-    "static/js/2.7e4e4994.chunk.js.map": "/marvel-app/static/js/2.7e4e4994.chunk.js.map",
+    "static/js/2.ea2fdeb5.chunk.js": "/marvel-app/static/js/2.ea2fdeb5.chunk.js",
+    "static/js/2.ea2fdeb5.chunk.js.map": "/marvel-app/static/js/2.ea2fdeb5.chunk.js.map",
     "index.html": "/marvel-app/index.html",
-    "precache-manifest.ee19dd23b96b56e053146890e84b2e4a.js": "/marvel-app/precache-manifest.ee19dd23b96b56e053146890e84b2e4a.js",
+    "precache-manifest.a0ed7f2ae3e29104eda63eb3126fbe65.js": "/marvel-app/precache-manifest.a0ed7f2ae3e29104eda63eb3126fbe65.js",
     "service-worker.js": "/marvel-app/service-worker.js",
     "static/css/2.14d66c4a.chunk.css.map": "/marvel-app/static/css/2.14d66c4a.chunk.css.map",
     "static/css/main.35d50831.chunk.css.map": "/marvel-app/static/css/main.35d50831.chunk.css.map"
