@@ -33,3 +33,13 @@ export const getCharacter = (id, params) => {
 
   return get("/characters/" + id, params)
 }
+
+export const getComic = (id, params) => {
+
+  return get("/comic/" + id, params)
+}
+
+export const getComics = (params) => {
+
+  return get("/comics/", params)
+}
